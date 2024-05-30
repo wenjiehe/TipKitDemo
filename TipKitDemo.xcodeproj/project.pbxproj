@@ -13,6 +13,7 @@
 		3DC8EB442C046B5A0040DA98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8EB432C046B5A0040DA98 /* Base */; };
 		3DC8EB462C046B5B0040DA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8EB452C046B5B0040DA98 /* Assets.xcassets */; };
 		3DC8EB492C046B5B0040DA98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3DC8EB482C046B5B0040DA98 /* Base */; };
+		3DC8EB512C0471770040DA98 /* WJTipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8EB502C0471770040DA98 /* WJTipManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3DC8EB452C046B5B0040DA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC8EB482C046B5B0040DA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DC8EB4A2C046B5B0040DA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC8EB502C0471770040DA98 /* WJTipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJTipManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3DC8EB452C046B5B0040DA98 /* Assets.xcassets */,
 				3DC8EB472C046B5B0040DA98 /* LaunchScreen.storyboard */,
 				3DC8EB4A2C046B5B0040DA98 /* Info.plist */,
+				3DC8EB502C0471770040DA98 /* WJTipManager.swift */,
 			);
 			path = TipKitDemo;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				3DC8EB412C046B5A0040DA98 /* ViewController.swift in Sources */,
 				3DC8EB3D2C046B5A0040DA98 /* AppDelegate.swift in Sources */,
+				3DC8EB512C0471770040DA98 /* WJTipManager.swift in Sources */,
 				3DC8EB3F2C046B5A0040DA98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F87FYPRFA8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TipKitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F87FYPRFA8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TipKitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +333,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
